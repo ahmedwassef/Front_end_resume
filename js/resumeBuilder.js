@@ -9,6 +9,7 @@ var bio = {
         "github": "ahmedwassef",
         "location": "Cairo",
     },
+     "welcomeMessage": "love working in  a team",
     "skills": ["HTML", "CSS", "JavaScript", "jQuery", "php","bootstrap", "Git", "laravel", "mysql", "c-panel", "c#"],
     "biopic": "images/me.jpg",
     "display": function() {
@@ -22,6 +23,8 @@ var bio = {
         });
 
         $('#header').append(HTMLbioPic.replace('%data%', bio.biopic));
+        $('#header').append(HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage));
+
 
         $('#header').append(HTMLskillsStart);
         $.each(bio.skills, function(value) {
