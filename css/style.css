@@ -103,7 +103,12 @@ a:hover{
 
 }
 
-
+.welcome-message {
+  margin: 20px;
+  font-size: 16px;
+  color: #f3f3f3;
+  line-height: 28px;
+}
 #skills-h3 {
   color: #e67e22;
   display: none;
