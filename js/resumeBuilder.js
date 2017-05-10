@@ -40,6 +40,7 @@ var education = {
         "location": "Mansoura",
         "degree": "software  Engineer",
         "dates": "2014-2018",
+         "majors": ["computer science"],
         "url": "http://csifac.mans.edu.eg",
     }],
     "onlineCourses": [{
